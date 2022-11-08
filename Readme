@@ -1,0 +1,13 @@
+V programu nebyla implementovana zadna rozsireni, vypis odposlechnutych informaci ma format odpovidajici programu wireshark a vypis databaze LSA odpovida formatu na zarizenich firmy Cisco.
+
+Program je spustitelny na operacnich systemech FreeBSD a Linux. Pro preklad na operacnim systemu FreeBSD pouzijte GNU Make bez parametru.
+
+> gmake
+
+Pro preklad na operacnim systemu Linux je potreba dodat parametr linux.
+
+> make linux
+
+Pro dalsi nastaveni chovani programu je mozne zmenit definice v hlavickovem souboru const.h. Popis definic je mozne najit v dokumentaci.
+
+@z tohoto souboru byla pro kompatibilitu odstranena diakritika
